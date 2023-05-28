@@ -1,0 +1,16 @@
+package com.lorrained.dojos_and_ninjas.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.lorrained.dojos_and_ninjas.repositories.NinjaRepository;
+
+@Service
+public class NinjaService {
+
+	@Autowired
+	private NinjaRepository ninjaRepo;
+	
+	///query functions next
+	
+}

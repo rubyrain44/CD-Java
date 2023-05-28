@@ -1,0 +1,15 @@
+
+public class MammalTest {
+
+	public static void main(String[] args) {
+		Gorilla Ohana = new Gorilla();
+		Ohana.throwThings();
+		Ohana.throwThings();
+		Ohana.throwThings();
+		Ohana.eatBananas();
+		Ohana.eatBananas();
+		Ohana.climb();
+		Ohana.getEnergyLevel();
+	}
+
+}

@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\rubyr\OneDrive\Coding Dojo\Java\STS\.metadata\.plugins\org.eclipse.jdt.core
+1449364757.index
+3627091810.index
+1865797976.index
+991428252.index
+887535001.index
+3003583372.index
+4224304078.index
+654069770.index
+2892295213.index
+570547616.index
+2517132702.index
+4007228284.index

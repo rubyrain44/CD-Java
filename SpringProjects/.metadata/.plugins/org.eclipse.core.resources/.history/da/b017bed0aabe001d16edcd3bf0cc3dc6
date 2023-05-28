@@ -1,0 +1,5 @@
+package com.lorrained.dojos_and_ninjas.models;
+
+public class Dojo {
+
+}

@@ -1,0 +1,5 @@
+package com.lorrained.authentication.services;
+
+public class UserService {
+
+}

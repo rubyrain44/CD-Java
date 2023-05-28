@@ -1,0 +1,5 @@
+package com.lorrained.relationships.models;
+
+public class License {
+
+}

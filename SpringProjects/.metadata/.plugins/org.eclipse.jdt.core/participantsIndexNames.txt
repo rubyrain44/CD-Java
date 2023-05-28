@@ -1,0 +1,29 @@
+INDEX VERSION 1.131
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\992857877.index
+\tvShows\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1185378777.index
+\save_travels\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2556081035.index
+\thoughts_confessions\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2216624841.index
+\dojos_and_ninjas\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3117473032.index
+\test\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3559613346.index
+\musicfest2\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4193936316.index
+\FruityLoops\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1476164134.index
+\authentication\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\848876789.index
+\BookClub\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2092852241.index
+\helloworld\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3926107246.index
+\FruityLoops\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\397432915.index
+\Omikuji\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2329258056.index
+\Omikuji\src\main\java
+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3685749675.index
+\musicfest\src\main\java

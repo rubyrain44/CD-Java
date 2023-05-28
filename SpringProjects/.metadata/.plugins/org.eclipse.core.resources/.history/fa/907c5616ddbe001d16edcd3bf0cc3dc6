@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+.register_form {
+	display: flex;
+    flex-direction: column;
+}
+
+.login_form {
+	display: flex;
+    flex-direction: column;
+}

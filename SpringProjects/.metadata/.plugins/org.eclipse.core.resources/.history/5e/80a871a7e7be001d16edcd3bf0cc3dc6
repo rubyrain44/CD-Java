@@ -1,0 +1,5 @@
+package com.lorrained.authentication.repositories;
+
+public interface UserRepository extends CrudRepository<User, Long> {
+	Option<User> findByEmail(String email);
+}

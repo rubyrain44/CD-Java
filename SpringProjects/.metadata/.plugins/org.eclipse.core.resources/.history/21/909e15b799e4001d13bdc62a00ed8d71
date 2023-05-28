@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container {
+	max-width: 1200px;
+  	margin: 0 auto;
+  	padding: 0 2rem;
+	font-family: sans-serif;
+	background-color: darkgray;
+}
+
+.error {
+	color: #F9214B;
+	font-weight: bold;
+}
+.mainTop {
+  	height: 500px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: left;
+  	align-items: center;
+  	text-align: center;
+}
+.mainBottom {
+	height: 500px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+}
+.form-row {
+  	font-size: 1rem;
+  	color: var(--secondary-color);
+  	text-shadow: 2px 2px var(--primary-color)
+}
+

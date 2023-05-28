@@ -1,0 +1,113 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!-- c:out ; c:forEach etc. --> 
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!-- Formatting (dates) --> 
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %>
+<!-- form:form -->
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!-- for rendering errors on PUT routes -->
+<%@ page isErrorPage="true" %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<meta charset="UTF-8">
+	<title>Music fest!</title>
+	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css"> 
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div>
+	<h1 class="text-center display-1 bg-dark text-white">7-Fest</h1>
+	<h1 class="text-center display-5">Welcome, <c:out value="${user.userName}"/></h1>
+	</div>
+
+	<div class="mainTop">
+        <h2><c:out value="${user.userName}"/>'s Artist Line-Up</h2>
+            <table class="table table-hover table-bordered table-dark">
+                <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">6-7</th>
+                    <th scope="col">7-8</th>
+                    <th scope="col">8-9</th>
+                    <th scope="col">9-10</th>
+                    <th scope="col">10-11</th>
+                    <th scope="col">11-12</th>
+                </tr>
+                <tr>
+                    <th scope="col">Stage 1</th>
+                    <th scope="col">Hall & Oates</th>
+                    <th scope="col">Thomas Rhett</th>
+                    <th scope="col">iann dior</th>
+                    <th scope="col">Mayday Parade</th>
+                    <th scope="col">Two Door Cinema</th>
+                    <th scope="col">Taylor Swift</th>
+                </tr>
+                <tr>
+                    <th scope="col">Stage 2</th>
+                    <th scope="col">Billy Joel</th>
+                    <th scope="col">MOMOLAND</th>
+                    <th scope="col">The Weeknd</th>
+                    <th scope="col">Blake Shelton</th>
+                    <th scope="col">Incubus</th>
+                    <th scope="col">Elton John</th>
+                </tr>
+                <tr>
+                    <th scope="col">Stage 3</th>
+                    <th scope="col">Motion City Soundtrack</th>
+                    <th scope="col">ILLENIUM</th>
+                    <th scope="col">Phil Collins</th>
+                    <th scope="col">Death Cab For Cutie</th>
+                    <th scope="col">blink-182</th>
+                    <th scope="col">Cash Cash</th>
+                </tr>
+            </table>
+            
+            <div>
+            	<h5>Person's Lineup</h5>
+            	<p><c:out value="" /></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	
+            </div>
+	</div>
+		
+	<div class="mainBottom">
+		<div class="btn-group" role="group" aria-label="Basic example">
+  			<a href="/addLineup" type="button" class="btn btn-secondary">Make Your Lineup</button></a>
+  			<a href="/lineup/${user.id}" button type="button" class="btn btn-secondary">View Your Lineup</button></a>
+  			<a href="/logout" button type="button" class="btn btn-secondary">Logout</button></a>
+		</div>
+		
+		<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  		<div class="card-body">
+    		<h5 class="card-title">Check out other users Dream Lineups!</h5>
+    		<p class="card-text"><c:forEach var="user" items="$userLineups"></c:forEach></p>
+  		</div>
+  		
+	<c:forEach var="lineup" items="${lineups}">  		
+  		  <div>
+            	<h5>Person's Lineup</h5>
+            	<p><c:out value="" /></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	<p></p>
+            	
+            </div>
+           </c:forEach>
+	</div>
+</body>
+</html>

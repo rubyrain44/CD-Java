@@ -1,0 +1,5 @@
+package com.lorrained.authentication.models;
+
+public class User {
+
+}

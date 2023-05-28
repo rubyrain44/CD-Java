@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringProjects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2766381423.index
+867237387.index
+2491499936.index
+1257368787.index
+1297764888.index
+3321689603.index
+992857877.index
+1013946308.index
+3375303257.index
+1297013223.index
+2168085722.index
+3770791328.index
+967965963.index

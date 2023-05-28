@@ -1,0 +1,5 @@
+package com.lorrained.authentication.controllers;
+
+public class HomeController {
+
+}

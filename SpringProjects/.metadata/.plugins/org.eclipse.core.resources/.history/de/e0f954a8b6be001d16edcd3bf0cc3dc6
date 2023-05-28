@@ -1,0 +1,21 @@
+package com.lorrained.dojos_and_ninjas.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import com.lorrained.dojos_and_ninjas.models.Dojo;
+
+@Controller
+public class HomeController {
+	
+	@GetMapping("/")
+	public String home(@ModelAttribute("dojo") Dojo dojo) {
+		return "new_dojo.jsp";
+	}
+	
+	@PostMapping("/create_dojo")
+	public String createDojo() {
+		
+	}
+}

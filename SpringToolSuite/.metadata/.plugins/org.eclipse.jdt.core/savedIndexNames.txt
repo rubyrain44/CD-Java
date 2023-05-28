@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\rubyr\OneDrive\Coding Dojo\Java\SpringToolSuite\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3764993317.index
+293086513.index
+511880308.index
+2380175872.index

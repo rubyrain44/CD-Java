@@ -1,0 +1,6 @@
+package com.lorrained.dojos_and_ninjas.controllers;
+
+@Controller
+public class HomeController {
+	
+}

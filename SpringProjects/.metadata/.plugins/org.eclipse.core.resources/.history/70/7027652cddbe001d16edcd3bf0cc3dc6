@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+
+.mainPage {
+	display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,7 @@
+package com.lorrained.dojos_and_ninjas.models;
+
+@Entity
+@Table(name="dojos")
+public class Dojo {
+
+}

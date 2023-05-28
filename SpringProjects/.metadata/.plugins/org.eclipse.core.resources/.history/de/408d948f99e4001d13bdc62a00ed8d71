@@ -1,0 +1,112 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ page isErrorPage="true" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<script data-who="💎 Made with naker.io 💎" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|radial|,|sensitivity|:1,|colorStart|:[3,11,41,1],|colorEnd|:[0,0,0,1]},|particle|:{|life|:5,|power|:0.08,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png|,|number|:2000,|colorStart|:[117,175,198,0.13],|colorEnd|:[10,46,164,0.46],|sizeStart|:2,|sizeEnd|:4,|direction1|:{|x|:0,|y|:100,|z|:100},|direction2|:{|x|:-100,|y|:0,|z|:-100}}}" data-container=".background"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<meta charset="UTF-8">
+	<title>Music fest!</title>
+	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css"> 
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="text-center">DOJO FEST</h1>
+	<h2 class= "text-center">Brought to you by GOUP 7!!!</h2>
+	<h1 class="text-center">Welcome, <c:out value="${user.userName}"/></h1>
+	
+	<div class="text-center">
+	<a href="/addLineup" class="btn btn-outline-info">Make Your Lineup</a>
+	</div>
+	
+	<div class="mainTop">
+            <table class="table table-hover table-bordered table-dark">
+                <tr>
+                    <th> </th>
+                    <th>6-7</th>
+                    <th>7-8</th>
+                    <th>8-9</th>
+                    <th>9-10</th>
+                    <th>10-11</th>
+                    <th>11-12</th>
+                </tr>
+                <tr>
+                    <th>Stage 1</th>
+                    <th>Hall & Oates</th>
+                    <th>Thomas Rhett</th>
+                    <th>iann dior</th>
+                    <th>Mayday Parade</th>
+                    <th>Two Door Cinema</th>
+                    <th>Taylor Swift</th>
+                </tr>
+                <tr>
+                    <th>Stage 2</th>
+                    <th>Billy Joel</th>
+                    <th>MOMOLAND</th>
+                    <th>The Weeknd</th>
+                    <th>Blake Shelton</th>
+                    <th>Incubus</th>
+                    <th>Elton John</th>
+                </tr>
+                <tr>
+                    <th>Stage 3</th>
+                    <th>Motion City Soundtrack</th>
+                    <th>ILLENIUM</th>
+                    <th>Phil Collins</th>
+                    <th>Death Cab For Cutie</th>
+                    <th>blink-182</th>
+                    <th>Cash Cash</th>
+                </tr>
+            </table>
+	</div>
+	
+	
+	<div class="fst-italic">
+	
+		<h1 class="text-center">Your Music Fest Lineup!</h1>
+	</div>
+	
+
+
+         <div class="container">
+			<h4 class="text-center">Posted by: <c:out value="${user.userName}"/></h4>
+		<div class="text-center">
+				<c:forEach var="lineup" items="${lineups}">	
+			<a href="view/${lineup.id}" ><c:out value="${lineup.name}"/></a>
+			</c:forEach>	
+		
+		</div>
+
+
+		</div>
+
+
+
+	
+
+
+		
+	<div class="mainBottom">
+
+        <div class="bottLeftDiv">
+            <a href="/logout" class="btn btn-outline-info">Logout</a>
+        </div>
+     </div>
+        
+
+
+        
+
+
+
+</body>
+</html>

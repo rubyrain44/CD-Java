@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\rubyr\OneDrive\Coding Dojo\Java\STS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1492221699.index
+654069770.index
+4007228284.index
+3685749675.index
+2556081035.index
